@@ -72,7 +72,7 @@
     },
 
     "HOME" : {
-        "INFO_SHARED_BY" : "Compartit per{USERNAME}"
+        "INFO_SHARED_BY" : "Compartit per {USERNAME}"
     },
 
     "PASSWORD_POLICY" : {
