@@ -149,3 +149,19 @@ if [ -f extensions/guacamole-auth-duo/target/*.tar.gz ]; then
         --strip-components=1                               \
         "*.jar"
 fi
+
+#
+# Copy Cas auth extension if it was built
+#
+
+if [ -f extensions/guacamole-auth-cas/target/*.tar.gz ]; then
+    mkdir -p "$DESTINATION/cas"
+    tar -xzf extensions/guacamole-auth-cas/target/*.tar.gz  \
+    -C "$DESTINATION/cas/"                                  \
+    --wildcards                                             \
+    --no-anchored                                           \
+    --no-wildcards-match-slash                              \
+    --strip-components=1                                    \
+    "*.jar"
+fi
+
