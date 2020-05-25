@@ -567,6 +567,23 @@ END
     ln -s /opt/guacamole/duo/guacamole-auth-*.jar   "$GUACAMOLE_EXT"
 }
 
+## Adds extra variables to guacamole.properties
+##      - API_SESSION_TIMEOUT
+##      - AVAILABLE-LANGUAGES
+##      - ENABLE_ENVIRONMENT_PROPERTIES
+##	- SKIP_IF_UNAVAILABLE
+##
+associate_optional_variables() {
+        # api-session-timeout
+        set_optional_property "api-session-timeout"             "$API_SESSION_TIMEOUT"
+       # available-languages
+       set_optional_property "available-languages"             "$AVAILABLE_LANGUAGES"
+        # enable-environment-properties
+        set_optional_property "enable-environment-properties"   "$ENABLE_ENVIRONMENT_PROPERTIES"
+       # skip-if-unavailable
+       set_optional_property "skip-if-unavailable"             "$SKIP_IF_UNAVAILABLE"
+}
+
 ##
 ## Starts Guacamole under Tomcat, replacing the current process with the
 ## Tomcat process. As the current process will be replaced, this MUST be the
@@ -703,6 +720,9 @@ fi
 if [ -n "$DUO_API_HOSTNAME" ]; then
     associate_duo
 fi
+
+# Use optional variables
+associate_optional_variables
 
 # Set logback level if specified
 if [ -n "$LOGBACK_LEVEL" ]; then
