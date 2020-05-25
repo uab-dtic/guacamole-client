@@ -1,11 +1,10 @@
 {
 
     "DATA_SOURCE_CAS" : {
-        "NAME" : "CAS SSO Backend"
+        "NAME" : "Backend d'inici de sessió unificat (SSO) CAS"
     },
 
     "LOGIN" : {
-        "FIELD_HEADER_TICKET"        : "",
         "INFO_CAS_REDIRECT_PENDING"  : "Espereu, redireccionant a l'autenticació CAS ..."
     }
 
