@@ -404,12 +404,12 @@
         "FIELD_HEADER_TYPESCRIPT_PATH" : "Ruta Typescript :",
         "FIELD_HEADER_USE_SSL"         : "Usa SSL/TLS",
 
-        "FIELD_OPTION_BACKSPACE_EMPTY" : "",
+
         "FIELD_OPTION_BACKSPACE_8"     : "Espai enrere (Ctrl-H)",
         "FIELD_OPTION_BACKSPACE_127"   : "Eliminar (Ctrl-?)",
 
         "FIELD_OPTION_COLOR_SCHEME_BLACK_WHITE" : "Negre sobre blanc",
-        "FIELD_OPTION_COLOR_SCHEME_EMPTY"       : "",
+
         "FIELD_OPTION_COLOR_SCHEME_GRAY_BLACK"  : "Gris sobre negre",
         "FIELD_OPTION_COLOR_SCHEME_GREEN_BLACK" : "Verd sobre negre",
         "FIELD_OPTION_COLOR_SCHEME_WHITE_BLACK" : "Blanc sobre negre",
@@ -428,7 +428,7 @@
         "FIELD_OPTION_FONT_SIZE_60"    : "60",
         "FIELD_OPTION_FONT_SIZE_72"    : "72",
         "FIELD_OPTION_FONT_SIZE_96"    : "96",
-        "FIELD_OPTION_FONT_SIZE_EMPTY" : "",
+
 
         "NAME" : "Kubernetes",
 
@@ -515,21 +515,21 @@
         "FIELD_OPTION_COLOR_DEPTH_24"    : "Veritable color (24 bits)",
         "FIELD_OPTION_COLOR_DEPTH_32"    : "Veritable color (32 bits)",
         "FIELD_OPTION_COLOR_DEPTH_8"     : "256 colors",
-        "FIELD_OPTION_COLOR_DEPTH_EMPTY" : "",
+
 
         "FIELD_OPTION_RESIZE_METHOD_DISPLAY_UPDATE" : "\"Actualizació de pantalla\" canal virtual (RDP 8.1+)",
-        "FIELD_OPTION_RESIZE_METHOD_EMPTY"          : "",
+
         "FIELD_OPTION_RESIZE_METHOD_RECONNECT"      : "Torna a connectar",
 
         "FIELD_OPTION_SECURITY_ANY"   : "Qualsevol",
-        "FIELD_OPTION_SECURITY_EMPTY" : "",
+
         "FIELD_OPTION_SECURITY_NLA"   : "NLA (Network Level Authentication)",
         "FIELD_OPTION_SECURITY_RDP"   : "RDP encryption",
         "FIELD_OPTION_SECURITY_TLS"   : "TLS encryption",
 
         "FIELD_OPTION_SERVER_LAYOUT_DE_CH_QWERTZ" : "Suís alemany (Qwertz)",
         "FIELD_OPTION_SERVER_LAYOUT_DE_DE_QWERTZ" : "Alemany (Qwertz)",
-        "FIELD_OPTION_SERVER_LAYOUT_EMPTY"        : "",
+
         "FIELD_OPTION_SERVER_LAYOUT_EN_GB_QWERTY" : "Anglès del Regne Unit (Qwerty)",
         "FIELD_OPTION_SERVER_LAYOUT_EN_US_QWERTY" : "Anglès dels Estats Units (Qwerty)",
         "FIELD_OPTION_SERVER_LAYOUT_ES_ES_QWERTY" : "Espanyol (Qwerty)",
@@ -592,12 +592,12 @@
         "FIELD_HEADER_TYPESCRIPT_NAME" : "Nom Typescript:",
         "FIELD_HEADER_TYPESCRIPT_PATH" : "Ruta Typescript:",
 
-        "FIELD_OPTION_BACKSPACE_EMPTY" : "",
+
         "FIELD_OPTION_BACKSPACE_8"     : "Backspace (Ctrl-H)",
         "FIELD_OPTION_BACKSPACE_127"   : "Delete (Ctrl-?)",
 
         "FIELD_OPTION_COLOR_SCHEME_BLACK_WHITE" : "Negre sobre blanc",
-        "FIELD_OPTION_COLOR_SCHEME_EMPTY"       : "",
+
         "FIELD_OPTION_COLOR_SCHEME_GRAY_BLACK"  : "Gris sobre negre",
         "FIELD_OPTION_COLOR_SCHEME_GREEN_BLACK" : "Verd sobre negre",
         "FIELD_OPTION_COLOR_SCHEME_WHITE_BLACK" : "Blanc sobre negre",
@@ -616,10 +616,10 @@
         "FIELD_OPTION_FONT_SIZE_60"    : "60",
         "FIELD_OPTION_FONT_SIZE_72"    : "72",
         "FIELD_OPTION_FONT_SIZE_96"    : "96",
-        "FIELD_OPTION_FONT_SIZE_EMPTY" : "",
+
 
         "FIELD_OPTION_TERMINAL_TYPE_ANSI"           : "ansi",
-        "FIELD_OPTION_TERMINAL_TYPE_EMPTY"          : "",
+
         "FIELD_OPTION_TERMINAL_TYPE_LINUX"          : "linux",
         "FIELD_OPTION_TERMINAL_TYPE_VT100"          : "vt100",
         "FIELD_OPTION_TERMINAL_TYPE_VT220"          : "vt220",
@@ -666,12 +666,12 @@
         "FIELD_HEADER_TYPESCRIPT_NAME" : "Nom de Typescript:",
         "FIELD_HEADER_TYPESCRIPT_PATH" : "Ruta de Typescript:",
 
-        "FIELD_OPTION_BACKSPACE_EMPTY" : "",
+
         "FIELD_OPTION_BACKSPACE_8"     : "Backspace (Ctrl-H)",
         "FIELD_OPTION_BACKSPACE_127"   : "Delete (Ctrl-?)",
 
         "FIELD_OPTION_COLOR_SCHEME_BLACK_WHITE" : "Negre sobre blanc",
-        "FIELD_OPTION_COLOR_SCHEME_EMPTY"       : "",
+
         "FIELD_OPTION_COLOR_SCHEME_GRAY_BLACK"  : "Gris sobre negre",
         "FIELD_OPTION_COLOR_SCHEME_GREEN_BLACK" : "Verd sobre negre",
         "FIELD_OPTION_COLOR_SCHEME_WHITE_BLACK" : "Blanc sobre negre",
@@ -690,10 +690,10 @@
         "FIELD_OPTION_FONT_SIZE_60"    : "60",
         "FIELD_OPTION_FONT_SIZE_72"    : "72",
         "FIELD_OPTION_FONT_SIZE_96"    : "96",
-        "FIELD_OPTION_FONT_SIZE_EMPTY" : "",
+
 
         "FIELD_OPTION_TERMINAL_TYPE_ANSI"           : "ansi",
-        "FIELD_OPTION_TERMINAL_TYPE_EMPTY"          : "",
+
         "FIELD_OPTION_TERMINAL_TYPE_LINUX"          : "linux",
         "FIELD_OPTION_TERMINAL_TYPE_VT100"          : "vt100",
         "FIELD_OPTION_TERMINAL_TYPE_VT220"          : "vt220",
@@ -747,14 +747,14 @@
         "FIELD_OPTION_COLOR_DEPTH_16"    : "Color baix (16 bits)",
         "FIELD_OPTION_COLOR_DEPTH_24"    : "Veritable color (24 bits)",
         "FIELD_OPTION_COLOR_DEPTH_32"    : "Veritable color (32 bits)",
-        "FIELD_OPTION_COLOR_DEPTH_EMPTY" : "",
 
-        "FIELD_OPTION_CURSOR_EMPTY"  : "",
+
+
         "FIELD_OPTION_CURSOR_LOCAL"  : "Local",
         "FIELD_OPTION_CURSOR_REMOTE" : "Remot",
 
         "FIELD_OPTION_CLIPBOARD_ENCODING_CP1252"    : "CP1252",
-        "FIELD_OPTION_CLIPBOARD_ENCODING_EMPTY"     : "",
+
         "FIELD_OPTION_CLIPBOARD_ENCODING_ISO8859_1" : "ISO 8859-1",
         "FIELD_OPTION_CLIPBOARD_ENCODING_UTF_8"     : "UTF-8",
         "FIELD_OPTION_CLIPBOARD_ENCODING_UTF_16"    : "UTF-16",
