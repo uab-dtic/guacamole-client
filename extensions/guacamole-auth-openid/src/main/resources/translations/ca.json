@@ -6,7 +6,7 @@
 
     "LOGIN" : {
         "FIELD_HEADER_ID_TOKEN" : "",
-        "INFO_REDIRECT_PENDING" : "Espereu, redirigint al proveïdor d'identitat ..."
+        "INFO_OID_REDIRECT_PENDING" : "Espereu, redirigint al proveïdor d'identitat ..."
     }
 
 }

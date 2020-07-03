@@ -4,6 +4,9 @@
     
     "APP" : {
 
+
+
+
         "ACTION_ACKNOWLEDGE"        : "OK",
         "ACTION_CANCEL"             : "Cancel·lar",
         "ACTION_CLONE"              : "Clon",
@@ -43,7 +46,8 @@
         "INFO_ACTIVE_USER_COUNT" : "Actualment en ús per {USERS} {USERS, plural, one{user} other{users}}.",
 
         "TEXT_ANONYMOUS_USER"   : "Anònim",
-        "TEXT_HISTORY_DURATION" : "{VALUE} {UNIT, select, second{{VALUE, plural, one{second} other{seconds}}} minute{{VALUE, plural, one{minute} other{minutes}}} hour{{VALUE, plural, one{hour} other{hours}}} day{{VALUE, plural, one{day} other{days}}} other{}}"
+        "TEXT_HISTORY_DURATION" : "{VALUE} {UNIT, select, second{{VALUE, plural, one{second} other{seconds}}} minute{{VALUE, plural, one{minute} other{minutes}}} hour{{VALUE, plural, one{hour} other{hours}}} day{{VALUE, plural, one{day} other{days}}} other{}}",
+        "TEXT_UNTRANSLATED" : "{MESSAGE}"
 
     },
 
@@ -102,6 +106,8 @@
         "ERROR_UPLOAD_308"     : "La transferència de fitxers s'ha aturat. Això és habitualment causat per problemes de xarxa, com ara un senyal sense fils o una velocitat de xarxa molt lenta.",
         "ERROR_UPLOAD_31D"     : "Actualment s'estan transferint massa fitxers. Espereu que es completin les transferències existents i, després, torneu-ho a provar.",
         "ERROR_UPLOAD_DEFAULT" : "S'ha produït un error intern al servidor Guacamole i s'ha acabat la connexió. Si el problema continua, aviseu l'administrador del sistema o comproveu els registres del sistema.",
+
+        "FIELD_PLACEHOLDER_FILTER" : "@:APP.FIELD_PLACEHOLDER_FILTER",
 
         "HELP_CLIPBOARD"           : "Aquí apareixerà un text copiat/tallat dins de Guacamole. Els canvis al text següent afectaran el porta-retalls remot.",
         "HELP_INPUT_METHOD_NONE"   : "No s'utilitza cap mètode d'entrada. S'accepta l'entrada de teclat des d'un teclat físic connectat.",
@@ -452,6 +458,10 @@
         "FIELD_HEADER_CREATE_RECORDING_PATH" : "Crea automàticament la ruta de gravació:",
         "FIELD_HEADER_DISABLE_AUDIO"   : "Desactiva l'àudio:",
         "FIELD_HEADER_DISABLE_AUTH"    : "Desactiva l'autenticació:",
+        "FIELD_HEADER_DISABLE_COPY"    : "Desactiva la còpia des de l'escriptori remot:",
+        "FIELD_HEADER_DISABLE_DOWNLOAD" : "Desactiva la baixada de fitxers:",
+        "FIELD_HEADER_DISABLE_PASTE"   : "Desactiva l’enganxament del client:",
+        "FIELD_HEADER_DISABLE_UPLOAD"   : "Desactiva la càrrega de fitxers:",
         "FIELD_HEADER_DOMAIN"          : "Domini:",
         "FIELD_HEADER_DPI"             : "Resolució (DPI):",
         "FIELD_HEADER_DRIVE_NAME"      : "Nom de la unitat:",
@@ -489,7 +499,7 @@
         "FIELD_HEADER_RECORDING_EXCLUDE_OUTPUT" : "Exclou els gràfics/fluxos:",
         "FIELD_HEADER_RECORDING_INCLUDE_KEYS"   : "Inclou els esdeveniments de teclat:",
         "FIELD_HEADER_RECORDING_NAME" : "Nom de la gravació:",
-        "FIELD_HEADER_RECORDING_PATH" : "Ruta de gravació:",
+        "FIELD_HEADER_RECORDING_PATH" : "Ruta de gravaciIELD_HEADER_DISABLE_COPYó:",
         "FIELD_HEADER_RESIZE_METHOD" : "Mètode de redimensionament:",
         "FIELD_HEADER_REMOTE_APP_ARGS" : "Paràmetres:",
         "FIELD_HEADER_REMOTE_APP_DIR"  : "Directori de treball:",
@@ -497,6 +507,7 @@
         "FIELD_HEADER_SECURITY"        : "Mode de seguretat:",
         "FIELD_HEADER_SERVER_LAYOUT"   : "Disposició del teclat:",
         "FIELD_HEADER_SFTP_DIRECTORY"             : "Directori de càrrega per defecte:",
+        "FIELD_HEADER_SFTP_DISABLE_DOWNLOAD"      : "Desactiva la baixada de fitxers:",
         "FIELD_HEADER_SFTP_HOST_KEY"              : "Clau d'amfitrió pública (Base64):",
         "FIELD_HEADER_SFTP_HOSTNAME"              : "Nom de l'amfitrió:",
         "FIELD_HEADER_SFTP_SERVER_ALIVE_INTERVAL" : "Interval de manteniment SFTP:",
@@ -505,11 +516,17 @@
         "FIELD_HEADER_SFTP_PORT"                  : "Port:",
         "FIELD_HEADER_SFTP_PRIVATE_KEY"           : "Clau privada:",
         "FIELD_HEADER_SFTP_ROOT_DIRECTORY"        : "Directori arrel del navegador de fitxers:",
+        "FIELD_HEADER_SFTP_DISABLE_UPLOAD"        : "Desactiva la càrrega de fitxers:",
         "FIELD_HEADER_SFTP_USERNAME"              : "Nom d'usuari:",
         "FIELD_HEADER_STATIC_CHANNELS" : "Noms de canals estàtics:",
         "FIELD_HEADER_TIMEZONE"        : "Fus horari:",
         "FIELD_HEADER_USERNAME"        : "Nom d'usuari:",
         "FIELD_HEADER_WIDTH"           : "Amplada:",
+        "FIELD_HEADER_WOL_BROADCAST_ADDR" : "Adreça de difusió del paquet WoL:",
+        "FIELD_HEADER_WOL_MAC_ADDR"       : "Adreça MAC de l'amfitrió remot:",
+        "FIELD_HEADER_WOL_SEND_PACKET"    : "Enviar paquet WoL:",
+        "FIELD_HEADER_WOL_WAIT_TIME"      : "Temps d'espera de l'arrencada d'amfitrió:",
+
 
         "FIELD_OPTION_COLOR_DEPTH_16"    : "Color baix (16 bits)",
         "FIELD_OPTION_COLOR_DEPTH_24"    : "Veritable color (24 bits)",
@@ -526,6 +543,7 @@
         "FIELD_OPTION_SECURITY_NLA"   : "NLA (Network Level Authentication)",
         "FIELD_OPTION_SECURITY_RDP"   : "RDP encryption",
         "FIELD_OPTION_SECURITY_TLS"   : "TLS encryption",
+        "FIELD_OPTION_SECURITY_VMCONNECT" : "Hyper-V / VMConnect",
 
         "FIELD_OPTION_SERVER_LAYOUT_DE_CH_QWERTZ" : "Suís alemany (Qwertz)",
         "FIELD_OPTION_SERVER_LAYOUT_DE_DE_QWERTZ" : "Alemany (Qwertz)",
@@ -533,9 +551,12 @@
         "FIELD_OPTION_SERVER_LAYOUT_EN_GB_QWERTY" : "Anglès del Regne Unit (Qwerty)",
         "FIELD_OPTION_SERVER_LAYOUT_EN_US_QWERTY" : "Anglès dels Estats Units (Qwerty)",
         "FIELD_OPTION_SERVER_LAYOUT_ES_ES_QWERTY" : "Espanyol (Qwerty)",
+        "FIELD_OPTION_SERVER_LAYOUT_ES_LATAM_QWERTY" : "Latino Americano (Qwerty)",
         "FIELD_OPTION_SERVER_LAYOUT_FAILSAFE"     : "Unicode",
+        "FIELD_OPTION_SERVER_LAYOUT_FR_BE_AZERTY" : "Belgian French (Azerty)",
         "FIELD_OPTION_SERVER_LAYOUT_FR_CH_QWERTZ" : "Suís francès (Qwertz)",
         "FIELD_OPTION_SERVER_LAYOUT_FR_FR_AZERTY" : "Francès (Azerty)",
+        "FIELD_OPTION_SERVER_LAYOUT_HU_HU_QWERTZ" : "Hungarian (Qwertz)",        
         "FIELD_OPTION_SERVER_LAYOUT_IT_IT_QWERTY" : "Italià (Qwerty)",
         "FIELD_OPTION_SERVER_LAYOUT_JA_JP_QWERTY" : "Japonès (Qwerty)",
         "FIELD_OPTION_SERVER_LAYOUT_PT_BR_QWERTY" : "Portuguès brasiler (Qwerty)",
@@ -547,6 +568,7 @@
 
         "SECTION_HEADER_AUTHENTICATION"     : "Autenticació",
         "SECTION_HEADER_BASIC_PARAMETERS"   : "Configuració bàsica",
+        "SECTION_HEADER_CLIPBOARD"          : "Portapapers",
         "SECTION_HEADER_DEVICE_REDIRECTION" : "Redirecció del dispositiu",
         "SECTION_HEADER_DISPLAY"            : "Pantalla",
         "SECTION_HEADER_GATEWAY"            : "Passarel·la d'escriptori remota",
@@ -556,7 +578,8 @@
         "SECTION_HEADER_PRECONNECTION_PDU"  : "Pre connexió PDU / Hyper-V",
         "SECTION_HEADER_RECORDING"          : "Gravació de la pantalla",
         "SECTION_HEADER_REMOTEAPP"          : "RemoteApp",
-        "SECTION_HEADER_SFTP"               : "SFTP"
+        "SECTION_HEADER_SFTP"               : "SFTP",
+        "SECTION_HEADER_WOL"                : "Wake-on-LAN (WoL)"
 
     },
 
@@ -567,6 +590,8 @@
         "FIELD_HEADER_COMMAND"      : "Executa l'ordre:",
         "FIELD_HEADER_CREATE_RECORDING_PATH" : "Crea automàticament la ruta de gravació:",
         "FIELD_HEADER_CREATE_TYPESCRIPT_PATH" : "Creeu automàticament la ruta de mecanografia:",
+        "FIELD_HEADER_DISABLE_COPY"  : "Desactiva la còpia des del terminal:",
+        "FIELD_HEADER_DISABLE_PASTE" : "Desactiva l’enganxament del client:",
         "FIELD_HEADER_FONT_NAME"     : "Nom del tipus de lletra:",
         "FIELD_HEADER_FONT_SIZE"     : "Mida de la lletra:",
         "FIELD_HEADER_ENABLE_SFTP"   : "Activa SFTP:",
@@ -586,11 +611,17 @@
         "FIELD_HEADER_RECORDING_NAME" : "Nom de la gravació:",
         "FIELD_HEADER_RECORDING_PATH" : "Ruta de gravació:",
         "FIELD_HEADER_SERVER_ALIVE_INTERVAL" : "Interval de 'keepalive' del servidor:",
+        "FIELD_HEADER_SFTP_DISABLE_DOWNLOAD" : "Desactiva la baixada de fitxers:",
         "FIELD_HEADER_SFTP_ROOT_DIRECTORY"   : "Directori arrel del navegador de fitxers:",
+        "FIELD_HEADER_SFTP_DISABLE_UPLOAD"   : "Desactiva la càrrega de fitxers:",
         "FIELD_HEADER_TERMINAL_TYPE"   : "Tipus de terminal:",
         "FIELD_HEADER_TIMEZONE"        : "Zona horària ($TZ):",
         "FIELD_HEADER_TYPESCRIPT_NAME" : "Nom Typescript:",
         "FIELD_HEADER_TYPESCRIPT_PATH" : "Ruta Typescript:",
+        "FIELD_HEADER_WOL_BROADCAST_ADDR" : "Adreça de difusió del paquet WoL:",
+        "FIELD_HEADER_WOL_MAC_ADDR"       : "Adreça MAC de l'amfitrió remot:",
+        "FIELD_HEADER_WOL_SEND_PACKET"    : "Enviar paquet WoL:",
+        "FIELD_HEADER_WOL_WAIT_TIME"      : "Temps d'espera de l'arrencada d'amfitrió:",
 
 
         "FIELD_OPTION_BACKSPACE_8"     : "Backspace (Ctrl-H)",
@@ -630,12 +661,14 @@
 
         "SECTION_HEADER_AUTHENTICATION" : "Autenticació",
         "SECTION_HEADER_BEHAVIOR"       : "Comportament del terminal",
+        "SECTION_HEADER_CLIPBOARD"      : "Portapapers",
         "SECTION_HEADER_DISPLAY"        : "Pantalla",
         "SECTION_HEADER_NETWORK"        : "Xarxa",
         "SECTION_HEADER_RECORDING"      : "Gravació de la pantalla",
         "SECTION_HEADER_SESSION"        : "Sessió / Entorn",
         "SECTION_HEADER_TYPESCRIPT"     : "Typescript (Gravació de sessió de text)",
-        "SECTION_HEADER_SFTP"           : "SFTP"
+        "SECTION_HEADER_SFTP"           : "SFTP",
+        "SECTION_HEADER_WOL"            : "Wake-on-LAN (WoL)"
 
     },
 
@@ -645,6 +678,8 @@
         "FIELD_HEADER_COLOR_SCHEME"   : "Esquema de colors:",
         "FIELD_HEADER_CREATE_RECORDING_PATH" : "Crea automàticament la ruta de gravació:",
         "FIELD_HEADER_CREATE_TYPESCRIPT_PATH" : "Crea automàticament la ruta del typescript:",
+        "FIELD_HEADER_DISABLE_COPY"   : "Desactiva la còpia des del terminal:",
+        "FIELD_HEADER_DISABLE_PASTE"  : "Desactiva l’enganxament del client:",
         "FIELD_HEADER_FONT_NAME"      : "Nom del tipus de lletra:",
         "FIELD_HEADER_FONT_SIZE"      : "Mida de la lletra:",
         "FIELD_HEADER_HOSTNAME"       : "Nom de l'amfitrió:",
@@ -665,6 +700,10 @@
         "FIELD_HEADER_TERMINAL_TYPE"   : "Tipus de terminal:",
         "FIELD_HEADER_TYPESCRIPT_NAME" : "Nom de Typescript:",
         "FIELD_HEADER_TYPESCRIPT_PATH" : "Ruta de Typescript:",
+        "FIELD_HEADER_WOL_BROADCAST_ADDR" : "Adreça de difusió del paquet WoL:",
+        "FIELD_HEADER_WOL_MAC_ADDR"       : "Adreça MAC de l'amfitrió remot:",
+        "FIELD_HEADER_WOL_SEND_PACKET"    : "Enviar paquet WoL:",
+        "FIELD_HEADER_WOL_WAIT_TIME"      : "Temps d'espera de l'arrencada d'amfitrió:",
 
 
         "FIELD_OPTION_BACKSPACE_8"     : "Backspace (Ctrl-H)",
@@ -704,10 +743,12 @@
 
         "SECTION_HEADER_AUTHENTICATION" : "Autenticació",
         "SECTION_HEADER_BEHAVIOR"       : "Comportament del terminal",
+        "SECTION_HEADER_CLIPBOARD"      : "Portapapers",
         "SECTION_HEADER_DISPLAY"        : "Pantalla",
         "SECTION_HEADER_RECORDING"      : "Gravació de la pantalla",
         "SECTION_HEADER_TYPESCRIPT"     : "Typescript (Gravació de sessió de text)",
-        "SECTION_HEADER_NETWORK"        : "Xarxa"
+        "SECTION_HEADER_NETWORK"        : "Xarxa",
+        "SECTION_HEADER_WOL"            : "Wake-on-LAN (WoL)"
 
     },
 
@@ -720,9 +761,12 @@
         "FIELD_HEADER_CURSOR"           : "Cursor:",
         "FIELD_HEADER_DEST_HOST"        : "Amfitrió de destinació:",
         "FIELD_HEADER_DEST_PORT"        : "Port de destinació:",
+        "FIELD_HEADER_DISABLE_COPY"     : "Desactiva la còpia des de l'escriptori remot:",
+        "FIELD_HEADER_DISABLE_PASTE"    : "Desactiva l’enganxament del client:",
         "FIELD_HEADER_ENABLE_AUDIO"     : "Habilita l'àudio:",
         "FIELD_HEADER_ENABLE_SFTP"      : "Activa SFTP:",
         "FIELD_HEADER_HOSTNAME"         : "Nom de l'amfitrió:",
+        "FIELD_HEADER_USERNAME"         : "Nom d'usuari:",
         "FIELD_HEADER_PASSWORD"         : "Contrasenya:",
         "FIELD_HEADER_PORT"             : "Port:",
         "FIELD_HEADER_READ_ONLY"        : "Només lectura:",
@@ -732,6 +776,7 @@
         "FIELD_HEADER_RECORDING_NAME" : "Nom de la gravació:",
         "FIELD_HEADER_RECORDING_PATH" : "Ruta de gravació:",
         "FIELD_HEADER_SFTP_DIRECTORY"             : "Directori de càrrega per defecte:",
+        "FIELD_HEADER_SFTP_DISABLE_DOWNLOAD"      : "Desactiva la baixada de fitxers:",
         "FIELD_HEADER_SFTP_HOST_KEY"              : "Clau d'amfitrió pública (Base64):",
         "FIELD_HEADER_SFTP_HOSTNAME"              : "Nom de l'amfitrió:",
         "FIELD_HEADER_SFTP_SERVER_ALIVE_INTERVAL" : "Interval de keepalive SFTP:",
@@ -740,8 +785,13 @@
         "FIELD_HEADER_SFTP_PORT"                  : "Port:",
         "FIELD_HEADER_SFTP_PRIVATE_KEY"           : "Clau privada:",
         "FIELD_HEADER_SFTP_ROOT_DIRECTORY"        : "Directori arrel del navegador de fitxers:",
+        "FIELD_HEADER_SFTP_DISABLE_UPLOAD"        : "Desactiva la càrrega de fitxers:",
         "FIELD_HEADER_SFTP_USERNAME"              : "Nom d'usuari:",
         "FIELD_HEADER_SWAP_RED_BLUE"    : "Canvia components vermells/blaus:",
+        "FIELD_HEADER_WOL_BROADCAST_ADDR" : "Adreça de difusió del paquet WoL:",
+        "FIELD_HEADER_WOL_MAC_ADDR"       : "Adreça MAC de l'amfitrió remot:",
+        "FIELD_HEADER_WOL_SEND_PACKET"    : "Enviar paquet WoL:",
+        "FIELD_HEADER_WOL_WAIT_TIME"      : "Temps d'espera de l'arrencada d'amfitrió:",
 
         "FIELD_OPTION_COLOR_DEPTH_8"     : "256 colors",
         "FIELD_OPTION_COLOR_DEPTH_16"    : "Color baix (16 bits)",
@@ -768,7 +818,8 @@
         "SECTION_HEADER_NETWORK"        : "Xarxa",
         "SECTION_HEADER_RECORDING"      : "Gravació de la pantalla",
         "SECTION_HEADER_REPEATER"       : "Repetidor VNC",
-        "SECTION_HEADER_SFTP"           : "SFTP"
+        "SECTION_HEADER_SFTP"           : "SFTP",
+        "SECTION_HEADER_WOL"            : "Wake-on-LAN (WoL)"
 
     },
 
